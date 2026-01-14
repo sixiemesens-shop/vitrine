@@ -2,10 +2,50 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sixième Sens</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Sixième Sens</h1>
-  <p>Site vitrine en cours de création ✨</p>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sixième Sens</div>
+      <ul class="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="homme.html">Homme</a></li>
+        <li><a href="femme.html">Femme</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Accueil -->
+  <main>
+    <!-- Section paysage -->
+    <section class="hero">
+      <img src="images/hero-landscape.jpg" alt="Univers Sixième Sens" class="hero-img">
+      <div class="hero-text">
+        <h1>L'univers Sixième Sens</h1>
+        <p>Élégance et sobriété au service d'un style premium</p>
+      </div>
+    </section>
+
+    <!-- Section portraits cliquables -->
+    <section class="categories">
+      <a href="homme.html" class="category-card">
+        <img src="images/homme-portrait.jpg" alt="Homme">
+        <span>Homme</span>
+      </a>
+      <a href="femme.html" class="category-card">
+        <img src="images/femme-portrait.jpg" alt="Femme">
+        <span>Femme</span>
+      </a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Sixième Sens. Tous droits réservés.</p>
+  </footer>
 </body>
 </html>
