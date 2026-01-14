@@ -63,19 +63,27 @@ body {
   padding: 0 20px;
   text-align: center;
 }
-.hero-intro {
+
+/* INTRO TEXTE CENTRÉ */
+.intro {
+  width: 100%;
+  padding: 160px 20px; /* espace AU-DESSUS et EN-DESSOUS */
+  background-color: #fff;
+}
+
+.intro-inner {
   max-width: 800px;
-  margin: 160px auto; /* MÊME ESPACE AU-DESSUS ET EN DESSOUS */
+  margin: 0 auto;       /* CENTRAGE RÉEL */
   text-align: center;
 }
 
-.hero-intro h1 {
+.intro-inner h1 {
   font-size: 2rem;
   letter-spacing: 2px;
   margin-bottom: 20px;
 }
 
-.hero-intro p {
+.intro-inner p {
   font-size: 1.1rem;
   color: #333;
 }
