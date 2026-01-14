@@ -60,14 +60,14 @@ body {
   padding: 40px 20px;
 }
 .presentation {
-  margin-top: 30px; /* espace au-dessus du texte */
-  font-size: 1.1rem; /* taille légèrement plus grande pour la lecture */
-  line-height: 1.6;  /* interligne agréable */
-  color: #333;       /* gris foncé pour un contraste doux */
-  max-width: 800px;  /* limite la largeur pour que ce soit lisible */
+  margin-top: 30px;      /* espace au-dessus du texte */
+  font-size: 1.1rem;     /* taille légèrement plus grande pour lecture confortable */
+  line-height: 1.6;      /* interligne agréable */
+  color: #333;           /* gris foncé pour un contraste doux */
+  max-width: 800px;      /* largeur limitée pour lisibilité */
   margin-left: auto;
-  margin-right: auto; /* centré */
-  text-align: center; /* centré dans la section hero */
+  margin-right: auto;    /* centré horizontalement */
+  text-align: center;    /* centré dans la section hero */
 }
 /* Infos en colonnes */
 .info-columns {
