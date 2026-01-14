@@ -185,11 +185,28 @@ footer {
   color: #555;
   text-transform: uppercase; /* droits réservés en majuscule */
 }
-
-/* Responsive */
+/* Responsive pour tablettes (≤ 900px) */
 @media (max-width: 900px) {
   .info-columns {
     flex-direction: column;
     gap: 30px;
+  }
+}
+
+/* Responsive pour mobile (≤ 600px) */
+@media (max-width: 600px) {
+  /* Logo réduit */
+  .navbar .logo {
+    font-size: 1.2rem; /* réduit la taille du logo pour qu'il tienne sur une ligne */
+  }
+
+  /* Portraits Homme/Femme empilés */
+  .categories {
+    flex-direction: column; /* empile les cartes verticalement */
+    margin-top: 50px;       /* réduit l’espace pour mobile */
+  }
+
+  .category-card img {
+    height: 50vh; /* réduit la hauteur pour mobile */
   }
 }
