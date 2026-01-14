@@ -89,15 +89,16 @@ body {
 }
 
 .presentation {
-  margin-top: 30px;      /* espace au-dessus du texte */
-  font-size: 1.1rem;     /* taille légèrement plus grande pour lecture confortable */
-  line-height: 1.6;      /* interligne agréable */
-  color: #333;           /* gris foncé pour un contraste doux */
-  max-width: 800px;      /* largeur limitée pour lisibilité */
+  margin-top: 20px;  /* réduit l’espace entre hero-text et présentation */
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
   margin-left: auto;
-  margin-right: auto;    /* centré horizontalement */
-  text-align: center;    /* centré dans la section hero */
+  margin-right: auto;
+  text-align: center;
 }
+
 /* Sélection Homme / Femme */
 .categories {
   display: flex;
