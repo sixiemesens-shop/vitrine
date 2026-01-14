@@ -75,7 +75,7 @@ body {
 /* INTRO TEXTE CENTRÉ */
 .intro {
   width: 100%;
-  padding: 160px 20px; /* espace AU-DESSUS et EN-DESSOUS */
+  padding: 60px 20px; /* espace réduit */
   background-color: #fff;
 }
 
