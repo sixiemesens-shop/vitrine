@@ -57,6 +57,14 @@ body {
   object-fit: cover;
 }
 
+/* Bannière Homme et Femme - ratio 16:9 */
+.homme-page .hero-img,
+.femme-page .hero-img {
+  width: 100%;
+  height: auto;       /* conserve le ratio 16:9 */
+  display: block;
+}
+
 .hero-text {
   max-width: 800px;
   margin: 80px auto 0 auto; /* espace + centrage */
