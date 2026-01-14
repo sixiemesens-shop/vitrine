@@ -57,10 +57,13 @@ body {
   object-fit: cover;
   display: block;
 }
-
 .hero-text {
-  padding: 40px 20px;
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
 }
+
 .presentation {
   margin-top: 30px;      /* espace au-dessus du texte */
   font-size: 1.1rem;     /* taille légèrement plus grande pour lecture confortable */
@@ -75,6 +78,7 @@ body {
 .categories {
   display: flex;
   width: 100%;
+  margin-top: 120px; /* ≈ 3 grands espaces visuels */
 }
 
 .category-card {
