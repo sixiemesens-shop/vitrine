@@ -9,6 +9,7 @@
 body {
   background-color: #fff;
   color: #000;
+  text-transform: none; /* par défaut */
 }
 
 /* Navbar */
@@ -23,6 +24,7 @@ body {
 .navbar .logo {
   font-weight: bold;
   font-size: 1.5rem;
+  text-transform: uppercase; /* logo en majuscule */
 }
 
 .menu {
@@ -36,6 +38,7 @@ body {
   color: #000;
   font-weight: 500;
   transition: color 0.3s;
+  text-transform: uppercase; /* menu en majuscule */
 }
 
 .menu li a:hover {
@@ -75,6 +78,7 @@ body {
 .column h2 {
   font-size: 1.5rem;
   margin-bottom: 20px;
+  text-transform: uppercase; /* titres boutiques en majuscule */
 }
 
 .column p {
@@ -88,14 +92,21 @@ body {
   color: #000;
 }
 
-/* Liens adresses */
+/* Liens cliquables (boutons, adresses, portraits) */
+.column a,
+.category-card,
+.menu li a {
+  text-transform: uppercase; /* tout en majuscule */
+}
+
 .column a {
   color: #000;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.column a:hover {
+.column a:hover,
+.category-card:hover {
   color: #555;
 }
 
@@ -106,6 +117,7 @@ footer {
   border-top: 1px solid #000;
   font-size: 0.9rem;
   color: #555;
+  text-transform: uppercase; /* droits réservés en majuscule */
 }
 
 /* Responsive */
