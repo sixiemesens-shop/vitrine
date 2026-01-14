@@ -63,6 +63,22 @@ body {
   padding: 0 20px;
   text-align: center;
 }
+.hero-intro {
+  max-width: 800px;
+  margin: 160px auto; /* MÊME ESPACE AU-DESSUS ET EN DESSOUS */
+  text-align: center;
+}
+
+.hero-intro h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.hero-intro p {
+  font-size: 1.1rem;
+  color: #333;
+}
 
 .presentation {
   margin-top: 30px;      /* espace au-dessus du texte */
