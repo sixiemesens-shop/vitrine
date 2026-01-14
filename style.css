@@ -67,7 +67,7 @@ body {
 
 .hero-text {
   max-width: 800px;
-  margin: 80px auto 0 auto; /* espace + centrage */
+  margin: 20px auto 0 auto; /* réduit l’espace au-dessus */
   padding: 0 20px;
   text-align: center;
 }
