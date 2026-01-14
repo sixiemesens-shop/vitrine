@@ -53,7 +53,9 @@ body {
 
 .hero-img {
   width: 100%;
-  height: auto;
+  height: 500px;      /* bannière fine */
+  object-fit: cover;
+  display: block;
 }
 
 .hero-text {
@@ -68,6 +70,24 @@ body {
   margin-left: auto;
   margin-right: auto;    /* centré horizontalement */
   text-align: center;    /* centré dans la section hero */
+}
+/* Sélection Homme / Femme */
+.categories {
+  display: flex;
+  width: 100%;
+}
+
+.category-card {
+  flex: 1;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.category-card img {
+  width: 100%;
+  height: 100vh;     /* plein écran */
+  object-fit: cover;
+  display: block;
 }
 /* Infos en colonnes */
 .info-columns {
