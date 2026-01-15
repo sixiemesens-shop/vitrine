@@ -197,14 +197,19 @@ footer {
 @media (max-width: 600px) {
 
   .navbar {
-    padding: 15px 20px; /* marges plus petites sur mobile */
+    justify-content: flex-start; /* base saine */
+    padding: 15px 20px;
   }
 
   .navbar .logo {
-    margin-right: auto; /* pousse le menu vers la droite */
     font-size: 1rem;
     white-space: nowrap;
     flex-shrink: 0;
+  }
+
+  .menu {
+    margin-left: auto; /* ← C’EST ÇA LA CLÉ */
+    gap: 15px;
   }
 
   /* Portraits Homme/Femme empilés */
