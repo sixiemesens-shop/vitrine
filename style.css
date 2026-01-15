@@ -211,6 +211,7 @@ footer {
     margin-left: auto; /* ← C’EST ÇA LA CLÉ */
     gap: 15px;
   }
+}
 
   /* Portraits Homme/Femme empilés */
   .categories {
