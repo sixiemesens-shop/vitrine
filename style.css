@@ -195,12 +195,17 @@ footer {
 
 /* Responsive pour mobile (≤ 600px) */
 @media (max-width: 600px) {
-  /* Logo réduit */
-.navbar .logo {
-  font-size: 1rem;        /* encore un peu plus petit */
-  white-space: nowrap;   /* EMPÊCHE le retour à la ligne */
-  flex-shrink: 0;        /* empêche le logo de se comprimer */
-}
+
+  .navbar {
+    padding: 15px 20px; /* marges plus petites sur mobile */
+  }
+
+  .navbar .logo {
+    margin-right: auto; /* pousse le menu vers la droite */
+    font-size: 1rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
 
   /* Portraits Homme/Femme empilés */
   .categories {
