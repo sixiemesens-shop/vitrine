@@ -197,7 +197,7 @@ footer {
 @media (max-width: 600px) {
 
   .navbar {
-    justify-content: flex-start; /* base saine */
+    justify-content: flex-start;
     padding: 15px 20px;
   }
 
@@ -208,18 +208,17 @@ footer {
   }
 
   .menu {
-    margin-left: auto; /* ← C’EST ÇA LA CLÉ */
+    margin-left: auto;
     gap: 15px;
   }
-}
 
   /* Portraits Homme/Femme empilés */
   .categories {
-    flex-direction: column; /* empile les cartes verticalement */
-    margin-top: 50px;       /* réduit l’espace pour mobile */
+    flex-direction: column;
+    margin-top: 50px;
   }
 
   .category-card img {
-    height: 50vh; /* réduit la hauteur pour mobile */
+    height: 50vh;
   }
 }
